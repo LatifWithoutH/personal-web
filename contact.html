@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Multi Studio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Get in touch with Multi Studio for your next digital project. UI/UX design and development services."
+    />
+  </head>
+  <body>
+    <!-- Gradient Dots Background -->
+    <div class="gradient-dots"></div>
+
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <span class="logo-text"
+              >Multi<span class="accent">Studio</span></span
+            >
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="portfolio.html">WORK</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="theme-toggle">
+          <i class="fas fa-sun"></i>
+          <label class="theme-toggle-switch">
+            <input type="checkbox" id="themeToggle" class="hidden" />
+            <span class="theme-toggle-slider"></span>
+          </label>
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="cta">
+          <a href="contact.html" class="cta-button">Get in Touch</a>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <!-- Gradient particles container -->
+        <div class="particles-container"></div>
+
+        <!-- Gradient shape blobs -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-title">Contact Me</h1>
+            <p>Let's discuss your project and bring your ideas to life</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info-card">
+              <h2>Contact Information</h2>
+              <p>Feel free to reach out anytime</p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h3>Location</h3>
+                    <p>Karanganyar, Indonesia</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h3>Email</h3>
+                    <p>latifsmart123@gmail.com</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h3>Phone</h3>
+                    <p>+62 856 6986 5940</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-icons">
+                <a href="#" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-form-card">
+              <h2>Send Me a Message</h2>
+
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter subject"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="send-button">
+                  Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <div class="footer-logo">
+              <span class="logo-text"
+                >Multi<span class="accent">Studio</span></span
+              >
+            </div>
+            <p>
+              Creating memorable digital experiences through thoughtful design
+              and development.
+            </p>
+          </div>
+          <div class="footer-links-container">
+            <div class="footer-links-column">
+              <h4>Quick Links</h4>
+              <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="footer-links-column">
+              <h4>Contact</h4>
+              <div class="footer-contact-info">
+                <p><i class="fas fa-envelope"></i> latifsmart123@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +62 856 6986 5940</p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> Karanganyar, Indonesia
+                </p>
+              </div>
+              <div class="footer-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Multi Studio. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

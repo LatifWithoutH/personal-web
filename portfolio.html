@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Multi Studio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Explore Multi Studio's portfolio of UI/UX design and development projects."
+    />
+  </head>
+  <body>
+    <!-- Gradient Dots Background -->
+    <div class="gradient-dots"></div>
+
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <span class="logo-text"
+              >Multi<span class="accent">Studio</span></span
+            >
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="portfolio.html" class="active">WORK</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="theme-toggle">
+          <i class="fas fa-sun"></i>
+          <label class="theme-toggle-switch">
+            <input type="checkbox" id="themeToggle" class="hidden" />
+            <span class="theme-toggle-slider"></span>
+          </label>
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="cta">
+          <a href="contact.html" class="cta-button">Get in Touch</a>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <!-- Gradient particles container -->
+        <div class="particles-container"></div>
+
+        <!-- Gradient shape blobs -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-title">My Projects</h1>
+            <p>Check out some of my recent work</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container">
+          <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="app">
+              App Development
+            </button>
+            <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+          </div>
+
+          <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+              <div class="portfolio-image">
+                <img
+                  src="https://via.placeholder.com/600x450/6C48FF/FFFFFF?text=Web+Development"
+                  alt="Web Development Agency"
+                />
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h3>Web Development Agency</h3>
+                    <p>Web Design</p>
+                  </div>
+                  <a href="#" class="portfolio-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="web">
+              <div class="portfolio-image">
+                <img
+                  src="https://via.placeholder.com/600x450/3ECF8E/FFFFFF?text=WordPress+Themes"
+                  alt="WordPress Themes"
+                />
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h3>WordPress Themes</h3>
+                    <p>Web Design</p>
+                  </div>
+                  <a href="#" class="portfolio-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="ui">
+              <div class="portfolio-image">
+                <img
+                  src="https://via.placeholder.com/600x450/5365FB/FFFFFF?text=Mobile+App+UI"
+                  alt="Mobile App UI"
+                />
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h3>Travel App UX Design</h3>
+                    <p>UI/UX Design</p>
+                  </div>
+                  <a href="#" class="portfolio-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="web">
+              <div class="portfolio-image">
+                <img
+                  src="https://via.placeholder.com/600x450/FF3A5E/FFFFFF?text=Blog+Design"
+                  alt="Creative Blog Design"
+                />
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h3>Creative Blog Design</h3>
+                    <p>Web Design</p>
+                  </div>
+                  <a href="#" class="portfolio-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="app">
+              <div class="portfolio-image">
+                <img
+                  src="https://via.placeholder.com/600x450/2B8DFF/FFFFFF?text=Banking+App"
+                  alt="Banking App"
+                />
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h3>Banking App</h3>
+                    <p>App Development</p>
+                  </div>
+                  <a href="#" class="portfolio-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="ui">
+              <div class="portfolio-image">
+                <img
+                  src="https://via.placeholder.com/600x450/FF7A00/FFFFFF?text=E-commerce+App"
+                  alt="E-commerce App"
+                />
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h3>E-commerce App</h3>
+                    <p>UI/UX Design</p>
+                  </div>
+                  <a href="#" class="portfolio-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <!-- Gradient particles container -->
+        <div class="particles-container"></div>
+
+        <!-- Gradient shape blobs -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+
+        <div class="container">
+          <div class="cta-grid">
+            <div class="cta-text">
+              <h2>Let's Create Something Amazing Together</h2>
+              <p>Have a project in mind? I'm available for freelance work.</p>
+            </div>
+            <div class="cta-button-container">
+              <a href="contact.html" class="primary-button">
+                Get in Touch <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <div class="footer-logo">
+              <span class="logo-text"
+                >Multi<span class="accent">Studio</span></span
+              >
+            </div>
+            <p>
+              Creating memorable digital experiences through thoughtful design
+              and development.
+            </p>
+          </div>
+          <div class="footer-links-container">
+            <div class="footer-links-column">
+              <h4>Quick Links</h4>
+              <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+
+            <div class="footer-links-column">
+              <h4>Contact</h4>
+              <div class="footer-contact-info">
+                <p><i class="fas fa-envelope"></i> latifsmart123@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +62 856 6986 5940</p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> Karanganyar, Indonesia
+                </p>
+              </div>
+              <div class="footer-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Multi Studio. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
