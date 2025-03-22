@@ -42,22 +42,24 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("resize", handleScreenSize);
 
   // Theme toggle functionality
-  const themeToggle = document.querySelector('.theme-toggle input');
-  const currentTheme = localStorage.getItem('theme') || 'dark'; // Set default to 'dark'
+  const themeToggle = document.getElementById("themeToggle");
+  const currentTheme = localStorage.getItem("theme") || "light";
 
-  // Apply the saved theme
-  document.documentElement.setAttribute('data-theme', currentTheme);
-
-  // Set the toggle state based on the saved theme
-  if (currentTheme === 'dark') {
+  // Set the initial theme
+  document.body.setAttribute("data-theme", currentTheme);
+  if (currentTheme === "dark") {
     themeToggle.checked = true;
   }
 
-  // Listen for toggle changes
-  themeToggle.addEventListener('change', () => {
-    const theme = themeToggle.checked ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
+  // Add event listener to the theme toggle switch
+  themeToggle.addEventListener("change", function () {
+    if (this.checked) {
+      document.body.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.body.setAttribute("data-theme", "light");
+      localStorage.setItem("theme", "light");
+    }
   });
 
   // ENHANCED Mobile menu toggle
