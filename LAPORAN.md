@@ -4,7 +4,7 @@
 
 ### Tujuan
 
-Website portfolio ini dirancang untuk memperkenalkan Abdul Latif sebagai seorang Fotographer dan Editor. Tujuan utama dari website ini adalah untuk:
+Website portfolio ini dirancang untuk memperkenalkan Abdul Latif sebagai seorang Videographer dan Editor. Tujuan utama dari website ini adalah untuk:
 
 - Menampilkan kemampuan dan pengalaman Abdul Latif
 - Menyediakan informasi kontak dan cara menghubungi Abdul Latif
@@ -57,22 +57,7 @@ Website portfolio ini dirancang untuk memperkenalkan Abdul Latif sebagai seorang
    - Animasi dan transisi CSS
    - Custom scrollbar
 
-3. **JavaScript**
-
-   - Manipulasi DOM untuk interaktivitas
-   - Event handling untuk user input
-   - Toggle dark/light mode
-   - Filter portfolio
-   - Form validation
-   - Smooth scrolling
-   - Animasi
-
-4. **Font Awesome (v6.4.0)**
-
-   - Ikon untuk elemen UI
-   - Ikon sosial media
-
-5. **Google Fonts**
+3. **Google Fonts**
    - Font Montserrat untuk tipografi yang konsisten
 
 ## Struktur Folder dan File
@@ -84,7 +69,6 @@ latif/
 ├── portfolio.html            # Halaman portfolio
 ├── contact.html              # Halaman kontak
 ├── styles.css                # Stylesheet utama
-├── script.js                 # JavaScript utama
 │
 └── images/                      # Folder untuk gambar
     ├── latif.jpg               # Foto profil
@@ -100,7 +84,7 @@ latif/
 
    - Halaman beranda website
    - Berisi hero section dan informasi layanan
-   - Memperkenalkan Abdul Latif sebagai Fotographer
+   - Memperkenalkan Abdul Latif sebagai Videographer
 
 2. **portfolio.html**
 
@@ -157,7 +141,7 @@ Form kontak dilengkapi dengan validasi sisi klien untuk memastikan pengiriman da
 
 ## Kesimpulan
 
-Website portfolio ini berhasil mencapai tujuannya untuk menampilkan identitas profesional Abdul Latif sebagai Fotographer dan Editor. Desain modern dengan fitur interaktif seperti dark/light mode dan filtering portfolio meningkatkan pengalaman pengguna. Website ini responsif dan dapat diakses dengan baik di berbagai perangkat.
+Website portfolio ini berhasil mencapai tujuannya untuk menampilkan identitas profesional Abdul Latif sebagai Videographer dan Editor. Desain modern dengan fitur interaktif seperti dark/light mode dan filtering portfolio meningkatkan pengalaman pengguna. Website ini responsif dan dapat diakses dengan baik di berbagai perangkat.
 
 Kedepannya, proyek ini dapat ditingkatkan dengan menambahkan fitur seperti:
 
