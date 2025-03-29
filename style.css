@@ -2291,3 +2291,49 @@ footer {
     pointer-events: none !important;
   }
 }
+
+/* Filter Portfolio Without JavaScript */
+input[type="radio"] {
+  display: none;
+}
+
+.filter-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: var(--light-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+input[type="radio"]:checked + .filter-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.portfolio-item {
+  display: none;
+}
+
+#filter-all:checked ~ .portfolio-grid .portfolio-item {
+  display: block;
+}
+
+#filter-dakwah:checked
+  ~ .portfolio-grid
+  .portfolio-item[data-category="dakwah"] {
+  display: block;
+}
+
+#filter-dokumentasi:checked
+  ~ .portfolio-grid
+  .portfolio-item[data-category="dokumentasi"] {
+  display: block;
+}
+
+#filter-project:checked
+  ~ .portfolio-grid
+  .portfolio-item[data-category="project"] {
+  display: block;
+}
