@@ -2312,28 +2312,26 @@ input[type="radio"]:checked + .filter-btn {
   color: white;
 }
 
+/* Default: Tampilkan semua elemen */
 .portfolio-item {
-  display: none;
-}
-
-#filter-all:checked ~ .portfolio-grid .portfolio-item {
   display: block;
 }
 
+/* Sembunyikan elemen berdasarkan filter */
 #filter-dakwah:checked
   ~ .portfolio-grid
-  .portfolio-item[data-category="dakwah"] {
-  display: block;
+  .portfolio-item:not([data-category="dakwah"]) {
+  display: none;
 }
 
 #filter-dokumentasi:checked
   ~ .portfolio-grid
-  .portfolio-item[data-category="dokumentasi"] {
-  display: block;
+  .portfolio-item:not([data-category="dokumentasi"]) {
+  display: none;
 }
 
 #filter-project:checked
   ~ .portfolio-grid
-  .portfolio-item[data-category="project"] {
-  display: block;
+  .portfolio-item:not([data-category="project"]) {
+  display: none;
 }

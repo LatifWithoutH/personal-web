@@ -88,11 +88,10 @@ latif/
 │
 └── images/                      # Folder untuk gambar
     ├── latif.jpg               # Foto profil
-    ├── foto.jpg               # Gambar proyek foto
-    ├── thumbnail.jpg            # Gambar proyek editing
-    ├── thumbnail2.jpg          # Gambar proyek editing
-    ├── hh.png                # Gambar proyek
-    └── g2.png                # Gambar proyek
+    ├── thumbnail1.jpg            # Gambar event
+    ├── dakwah1.png               # Gambar video dakwah
+    ├── dakwah2.png                # Gambar video dakwah
+    └── project.png                # Gambar proyek
 ```
 
 ### Deskripsi File
